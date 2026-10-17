@@ -11,16 +11,16 @@ h1{font-size:26px;margin:0 0 4px}
 h2{font-size:19px;margin:28px 0 6px}
 .d{color:var(--mut);font-size:14px}
 section{background:var(--card);border-radius:16px;padding:6px 20px 16px;margin-top:16px}
-a{color:var(--acc)}
+a{color:var(--acc);overflow-wrap:anywhere}
 table{border-collapse:collapse;width:100%;font-size:14px;display:block;overflow-x:auto}
 th,td{border-bottom:1px solid rgba(128,128,128,.3);padding:8px 10px;text-align:left;vertical-align:top}
-</style></head><body><main>
+td,th{overflow-wrap:break-word}@media(max-width:480px){table,tbody,tr,td{display:block;width:auto}table tr:first-child{display:none}tr{border:1px solid #d5dae3;border-radius:8px;margin:0 0 10px;padding:4px 0}td{border:none!important;padding:4px 10px}td::before{content:attr(data-label);display:block;font-weight:600;font-size:.85em;opacity:.75}}</style></head><body><main>
 <h1>Politique de confidentialité</h1>
-<p class="d">Application « Alertes Pluie &amp; Vent » (<code>fr.byinnovation.meteo</code>) · Dernière mise à jour : 6 octobre 2026</p>
+<p class="d">Application « Alertes Pluie &amp; Vent » (<code>fr.byinnovation.meteo</code>) · Dernière mise à jour : 18 octobre 2026</p>
 
 <section>
 <h2>1. Qui sommes-nous ?</h2>
-<p>L'application est éditée par <strong>BY INNOVATION – Yannick Berthelot</strong>.<br>
+<p>L'application est éditée par <strong>BY INNOVATION – Yannick Berthelot</strong> (EI), SIRET 789 524 691 00035, siège : 46 rue de Ponthieu, 75008 Paris.<br>
 Contact : <a href="mailto:contact.byinnovation+meteo@gmail.com">contact.byinnovation+meteo@gmail.com</a></p>
 </section>
 
@@ -39,10 +39,10 @@ Contact : <a href="mailto:contact.byinnovation+meteo@gmail.com">contact.byinnova
 <p>Pour fonctionner, l'application interroge des services extérieurs. Ils reçoivent les informations techniques indiquées ci-dessous, ainsi que ton adresse IP, comme tout service internet. Toutes les connexions sont chiffrées (HTTPS).</p>
 <table>
 <tr><th>Service</th><th>Données reçues</th><th>Pourquoi</th></tr>
-<tr><td><a href="https://open-meteo.com/en/terms">Open-Meteo.com</a></td><td>Coordonnées de la ville consultée ; nom de ville saisi (recherche)</td><td>Prévisions météo et recherche de villes</td></tr>
-<tr><td><a href="https://www.rainviewer.com/privacy.html">RainViewer</a></td><td>Zone de carte affichée (vignettes)</td><td>Carte radar des pluies (écran facultatif)</td></tr>
-<tr><td><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap</a></td><td>Zone de carte affichée (vignettes)</td><td>Fond de carte du radar (écran facultatif)</td></tr>
-<tr><td>Service de géocodage d'Android (Google Play Services)</td><td>Position approximative, au toucher du bouton « Ajouter ma position »</td><td>Retrouver le nom de ta ville</td></tr>
+<tr><td data-label="Service"><a href="https://open-meteo.com/en/terms">Open-Meteo.com</a></td><td data-label="Données reçues">Coordonnées de la ville consultée ; nom de ville saisi (recherche)</td><td data-label="Pourquoi">Prévisions météo et recherche de villes</td></tr>
+<tr><td data-label="Service"><a href="https://www.rainviewer.com/privacy.html">RainViewer</a></td><td data-label="Données reçues">Zone de carte affichée (vignettes)</td><td data-label="Pourquoi">Carte radar des pluies (écran facultatif)</td></tr>
+<tr><td data-label="Service"><a href="https://wiki.osmfoundation.org/wiki/Privacy_Policy">OpenStreetMap</a></td><td data-label="Données reçues">Zone de carte affichée (vignettes)</td><td data-label="Pourquoi">Fond de carte du radar (écran facultatif)</td></tr>
+<tr><td data-label="Service">Service de géocodage d'Android (Google Play Services)</td><td data-label="Données reçues">Position approximative, au toucher du bouton « Ajouter ma position »</td><td data-label="Pourquoi">Retrouver le nom de ta ville</td></tr>
 </table>
 <p>Ces services ont leur propre politique de confidentialité, accessible par les liens ci-dessus.</p>
 </section>
