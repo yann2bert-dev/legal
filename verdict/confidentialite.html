@@ -14,15 +14,17 @@ table{border-collapse:collapse;width:100%;font-family:"Segoe UI",Roboto,Arial,sa
 th,td{border:1px solid #d4cdc0;padding:7px 9px;text-align:left;vertical-align:top}
 th{background:#ebe4d4}
 .meta{color:#6b675e;font-family:"Segoe UI",Roboto,Arial,sans-serif;font-size:14px}
+strong,a{overflow-wrap:anywhere}p,li{overflow-wrap:break-word}td,th{overflow-wrap:break-word}
+@media(max-width:600px){table,tbody,tr,td{display:block;width:auto}table tr:first-child{display:none}tr{border:1px solid #d4cdc0;border-radius:8px;margin:0 0 10px;padding:4px 0;background:#fbf8f1}td{border:none!important;padding:4px 10px}td::before{content:attr(data-label);display:block;font-weight:600;font-size:.85em;opacity:.75}}
 </style>
 </head>
 <body>
 <main>
 <h1>Politique de confidentialité — Verdict</h1>
-<p class="meta">Application Android « Verdict » (identifiant fr.byinnovation.verdict) · version en vigueur au 9 octobre 2026</p>
+<p class="meta">Application Android « Verdict » (identifiant fr.byinnovation.verdict) · Mise à jour : 18 octobre 2026</p>
 
 <h2>1. Qui sommes-nous</h2>
-<p>Verdict est éditée par <strong>BY INNOVATION – Yannick Berthelot</strong>, Ventabren (13122), France.<br>
+<p>Verdict est éditée par <strong>BY INNOVATION – Yannick Berthelot</strong> (EI), SIRET 789 524 691 00035, siège : 46 rue de Ponthieu, 75008 Paris, France.<br>
 Contact : <strong>contact.byinnovation+verdict@gmail.com</strong></p>
 
 <h2>2. Le principe : vos décisions restent sur votre téléphone</h2>
@@ -32,10 +34,10 @@ Contact : <strong>contact.byinnovation+verdict@gmail.com</strong></p>
 <h2>3. Les seuls envois de données, et seulement quand vous les déclenchez</h2>
 <table>
 <tr><th>Quand</th><th>Données envoyées</th><th>Destinataire</th><th>Pourquoi</th></tr>
-<tr><td>Vous lancez une recherche « Formation / CPF »</td><td>Les mots-clés, le budget, la modalité et le département saisis</td><td>Caisse des Dépôts — catalogue open data MonCompteFormation (opendata.caissedesdepots.fr)</td><td>Trouver les formations correspondantes</td></tr>
-<tr><td>Recherche « Formation » ou « Artisan / travaux »</td><td>Numéros SIREN des organismes trouvés ; pour les artisans : métier, département, code postal saisis</td><td>État français (DINUM) — Annuaire des entreprises (recherche-entreprises.api.gouv.fr)</td><td>Vérifier les entreprises (activité, ancienneté, labels)</td></tr>
-<tr><td>Vous utilisez l'IA facultative avec <em>votre propre clé</em></td><td>La question et les éléments de la décision nécessaires à la réponse</td><td>Le fournisseur d'IA que <em>vous</em> avez choisi (par ex. Anthropic, OpenAI, Mistral)</td><td>Générer ou enrichir des options, jouer l'avocat du diable</td></tr>
-<tr><td>Vous touchez un lien (site officiel, carte, e-mail)</td><td>Rien de plus que l'ouverture du lien</td><td>Le site ou l'application ouverts</td><td>Consultation</td></tr>
+<tr><td data-label="Quand">Vous lancez une recherche « Formation / CPF »</td><td data-label="Données envoyées">Les mots-clés, le budget, la modalité et le département saisis</td><td data-label="Destinataire">Caisse des Dépôts — catalogue open data MonCompteFormation (opendata.caissedesdepots.fr)</td><td data-label="Pourquoi">Trouver les formations correspondantes</td></tr>
+<tr><td data-label="Quand">Recherche « Formation » ou « Artisan / travaux »</td><td data-label="Données envoyées">Numéros SIREN des organismes trouvés ; pour les artisans : métier, département, code postal saisis</td><td data-label="Destinataire">État français (DINUM) — Annuaire des entreprises (recherche-entreprises.api.gouv.fr)</td><td data-label="Pourquoi">Vérifier les entreprises (activité, ancienneté, labels)</td></tr>
+<tr><td data-label="Quand">Vous utilisez l'IA facultative avec <em>votre propre clé</em></td><td data-label="Données envoyées">La question et les éléments de la décision nécessaires à la réponse</td><td data-label="Destinataire">Le fournisseur d'IA que <em>vous</em> avez choisi (par ex. Anthropic, OpenAI, Mistral)</td><td data-label="Pourquoi">Générer ou enrichir des options, jouer l'avocat du diable</td></tr>
+<tr><td data-label="Quand">Vous touchez un lien (site officiel, carte, e-mail)</td><td data-label="Données envoyées">Rien de plus que l'ouverture du lien</td><td data-label="Destinataire">Le site ou l'application ouverts</td><td data-label="Pourquoi">Consultation</td></tr>
 </table>
 <p>Ces envois passent tous par une connexion chiffrée (HTTPS). Ces services appliquent leurs propres politiques de confidentialité. Comme pour toute connexion à Internet, ils voient l'adresse IP de votre téléphone. Aucune autre donnée n'est transmise, et rien n'est envoyé en arrière-plan.</p>
 
